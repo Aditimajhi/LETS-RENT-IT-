@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        
+        <meta name="description" content="Let's rent it!" />
+        <meta name="keywords" content="Give Your Keywords for SEO" />
+        
+        <title>Let's rent it!</title>
+        <meta http-equiv="X-UA-Compatible" cintent="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--ADING CSS HERE-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style1.css" />
+        
+        <!--Resource Files for Slider-->
+        <!-- Start WOWSlider.com HEAD section -->
+        <link rel="stylesheet" type="text/css" href="assets/slider/engine1/style.css" />
+        <script type="text/javascript" src="assets/slider/engine1/jquery.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- End WOWSlider.com HEAD section -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    
+    <body>
+        <!--Header Starts HERE-->
+        <header >
+          <div class="logo">
+           <img src="..\images\71.png" height="150">
+          
+            
+          </div>
+            <nav class="navbar">
+                
+                
+                    <ul>
+                        <!-- <a href="login2.html "><li>Log In</li></a> -->
+                        <div class="menu">
+                            <div class="headermenu" title="menu">
+                                <div  class="fa-solid fa-bars">
+
+                                </div>
+                               
+
+                            </div>
+
+                        </div>
+                        <a href="contact1.html"><li>Contact Us</li></a>
+                        
+                        <a href="book1.html"><li>Houses</li></a>
+                        <a href="about1.html"><li>About Us</li></a>
+                        <a href="index1.html"><li>Home</li></a>
+                        
+                    </ul>
+                
+            </nav>
+            <div class="floatwrapper">
+                <div class="leftwrapper">
+                   
+                    <div class="navlink selector" title="preferences">
+                        <div class="locality">
+                            "locality"
+                            <i class="fa-light fa-chevron-down"></i>
+
+                        </div>
+                        <div class="gender">
+                            "Select gender"
+                            <i class="fa-light fa-chevron-down"></i>
+
+                        </div>
+                        <div class="login">
+                            <button class="btn-login" onclick="showModal()">login</button>
+                            <div class="overlay" onclick="closeModal()"></div>
+                            <div class="loginform"> 
+                                <span>&times;</span>
+                                <form action="">
+                                    <div>
+                                        <label for="">Username</label>
+                                        <input type="text"/>
+                                    </div>
+                                    <div >
+                                        <label for="">Password</label>
+                                        <input type="password"/>
+                                    </div>
+                                    <button>LOGIN</button>
+                                </form>
+                            </div>
+                        </body>
+                        <script>
+                            function showModal(){
+                                document.querySelector('.overlay').classList.add('showoverlay');
+                            document.querySelector('.loginform').classList.add('showloginform');
+                            }
+                            function closeModal(){
+                                document.querySelector('.overlay').classList.remove('showoverlay');
+                            document.querySelector('.loginform').classList.remove('showloginform');
+                            }
+                            var btnlogin=document.querySelector(".btn-login");
+                            btnlogin.addEventListener("click,showModal")
+                
+                            var c=document.querySelector("span");
+                            c.addEventListener("click,closeModel")
+                        </script></div>
+                        
+                    </div>
+                </div>
+                <div class="navlink midwrapper homemidwrapper" title="Enter location">
+                    <div class="headersearchwrapper">
+                       <img   class="fa-sharp fa-light fa-magnifying-glass"></i>
+
+                    </div>
+                </div>
+            </div>
+            
+                
+            
+            
+        </header>
+        <!--Header Ends HERE-->
+        
+        <!--Menu Starts HERE-->
+        
+        <!--Menu Ends HERE-->
+        
+        <!--SLIDER STARTS HERE-->
+        <div class="slider">
+            <div class="wrapper">
+                <!-- Start WOWSlider.com BODY section -->
+                <div id="wowslider-container1">
+                <div class="ws_images"><ul>
+                		<li><img src="assets/slider/data1/images/house03.jpg" alt="House Rental System" title="House Rental System" id="wows1_0"/></li>
+                		<li><a href="http://wowslider.net"><img src="assets/slider/data1/images/pexelsphoto186077.jpg" alt="jquery carousel" title="Luxury Houses for Rent" id="wows1_1"/></a></li>
+                		<li><img src="assets/slider/data1/images/39f6e0639465c7e01eaa79e26ada2a48.jpg" alt="Rent Houses at Affordable Price" title="Rent Houses at Affordable Price" id="wows1_2"/></li>
+                	</ul></div>
+                	<div class="ws_bullets"><div>
+                		<a href="#" title="House Rental System"><span><img src="assets/slider/data1/tooltips/house03.jpg" alt="House Rental System"/>1</span></a>
+                		<a href="#" title="Luxury Houses for Rent"><span><img src="assets/slider/data1/tooltips/pexelsphoto186077.jpg" alt="Luxury Houses for Rent"/>2</span></a>
+                		<a href="#" title="Rent Houses at Affordable Price"><span><img src="assets/slider/data1/tooltips/39f6e0639465c7e01eaa79e26ada2a48.jpg" alt="Rent Houses at Affordable Price"/>3</span></a>
+                	</div></div>
+                <div class="ws_shadow"></div>
+                </div>	
+                <script type="text/javascript" src="assets/slider/engine1/wowslider.js"></script>
+                <script type="text/javascript" src="assets/slider/engine1/script.js"></script>
+                <!-- End WOWSlider.com BODY section -->
+            </div>
+        </div>
+        <!--SLIDER ENDS HERE-->
+        
+        <!--Main Body Starts HERE-->
+        <div class="main">
+            <div class="wrapper">
+                <h3>Recently Added</h3>
+                
+                <!--Displaying Recently Added Houses in Boxes-->
+                <div class="clearfix">
+                    
+                    <div class="houses">
+                        <img src="images/house.jpg" />
+                        <span class="house-title">Som Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: Sano Thimi, Bhaltapur Nepal</span><br />
+                        <a href="book.html">
+                            <button type="button" class="btn-book" >Book House</button>
+                        </a>
+                    </div>
+                    
+                    <div class="houses">
+                        <img src="images/house.jpg" />
+                        <span class="house-title">Ram Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: Sano Thimi, Bhaltapur Nepal</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                    <div class="houses">
+                        <img src="images/house.jpg" />
+                        <span class="house-title">Shyam Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: Sano Thimi, Bhaltapur Nepal</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                    <div class="houses">
+                        <img src="images/house.jpg" />
+                        <span class="house-title">Hari Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: Sano Thimi, Bhaltapur Nepal</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    <div class="houses">
+                        <img src="images/house.jpg" />
+                        <span class="house-title">Kumari Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: Sano Thimi, Bhaltapur Nepal</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                </div>
+                
+                <h3>Luxurious Houses</h3>
+                <!--Displaying Luxurious Houses in Boxes-->
+                <div class="clearfix">
+                    
+                    <div class="houses">
+                        <img src="images/house.jpg" />
+                        <span class="house-title">Som Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: Sano Thimi, Bhaltapur Nepal</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                    <div class="houses">
+                        <img src="images/house.jpg" />
+                        <span class="house-title">Ram Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: Sano Thimi, Bhaltapur Nepal</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                    
+                    <div class="houses">
+                        <img src="images/house.jpg" />
+                        <span class="house-title">Shyam Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: Sano Thimi, Bhaltapur Nepal</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                    <div class="houses">
+                        <img src="images/house.jpg" />
+                        <span class="house-title">Hari Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: Sano Thimi, Bhaltapur Nepal</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    <div class="houses">
+                        <img src="images/house.jpg" />
+                        <span class="house-title">Kumari Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: Sano Thimi, Bhaltapur Nepal</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--Main Body Ends HERE-->
+        
+        <!--Footer Starts HERE-->
+      <footer class="footer" >
+        <div class="footercontainer">
+
+            <div class="socialicon">
+               <a href=""><i class="fa-brands fa-facebook" style="color: rgb(52, 28, 60);"></i></a>
+               <a href=""><i class="fa-brands fa-google" style="color: rgb(52, 28, 60);"></i></a>
+               <a href=""><i class="fa-brands fa-twitter" style="color: rgb(52, 28, 60);"></i></a>
+               
+            
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Our Team</a></li>
+                </ul>
+                
+
+            </div>
+            <div class="footerbottom"><p>Copyright &copy; <a href="#">Lets Rent It!</a>. All rights reserved 2023.</p></div>
+        </div>   
+        </footer>
+        <!--Footer Ends HERE-->
+    </body>
+</html>
