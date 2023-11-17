@@ -1,0 +1,121 @@
+.navbar{
+    background-color:rgb(52, 28, 60);
+    border-radius:30px;
+    margin: 30px;
+    color: aliceblue;
+    
+}
+.navbar ul{
+    overflow: auto;
+    color: aliceblue;
+}
+.navbar li{
+    float:right;
+    list-style:none;
+    margin: 13px 20px;
+   color: white;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration:none;
+    color:white;
+}
+.navbar input{
+    border:2px solid black;
+    border-radius: 14px;
+    padding:3px 17px;
+    width:150px;
+}
+.logo{
+    width: 50px;
+    display:flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-bottom: 0%;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+footer{
+    background-color:rgb(52, 28, 60) ;
+}
+.footercontainer{
+    width:100%;
+    padding: 70px 30px 20px;
+}
+
+.socialicon{
+    display:flex;
+    justify-content:center;
+}
+.socialicon a{
+    text-decoration: none;
+    padding:10px;
+    background-color:white;
+    margin:10px;
+    border: radius 50%;
+
+}
+.socialicon a i{
+    font-size:2em;
+    color:black;
+    opacity:0.9;
+
+}
+.socialicon a:hover{
+    background-color:rgb(52, 28, 60)
+    
+}
+.socialicon a:hover i{
+    color:white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display:flex;
+    justify-content: center;
+    list-style-type:disc;
+}
+.footernav ul li a{
+    color:white;
+    margin:20px;
+    text-decoration:none;
+    font-size: 1.3em;
+    opacity:0.7;
+    transition:0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color:rgb(44, 20, 52);
+    padding:20px;
+    text-align:center;
+}
+.footerbottom p{
+    color:white;
+}
+@media(max-width:700px){
+    .footernav ul{
+        flex-direction:column;
+    }
+    .footernav ul li{
+        width:100%;
+        text-align:center;
+    }
+}
+.aboutfullscreen{
+    ax-width: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+}
+.aboutFullScreen {
+   /* <!--max-width: 1024px;-->*/ 
+    margin: auto;
+    /* padding: 70px 15px; */
+}

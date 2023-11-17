@@ -1,0 +1,362 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    font-family: arial,sans-seriff;
+    line-height: 25px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1% 1%;
+}
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+/*CSS for Header*/
+.navbar{
+    background-color:rgb(52, 28, 60);
+    border-radius:30px;
+    margin: 30px;
+    color: aliceblue;
+    
+}
+.navbar ul{
+    overflow: auto;
+    color: aliceblue;
+}
+.navbar li{
+    float:right;
+    list-style:none;
+    margin: 13px 20px;
+   color: white;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration:none;
+    color:white;
+}
+.navbar .menu{
+    display:inline-block;
+    width:70%;
+    text-align:left;
+}
+.headermenu{
+    display:inline-block;
+    color:white;
+    cursor:pointer;
+    overflow:hidden;
+    transition:right .3s ease-in-out;
+    position:relative;
+    margin-left: 30px;
+    margin-top: 15px;
+    
+
+
+}
+
+
+
+
+.navbar input{
+    border:2px solid black;
+    border-radius: 14px;
+    padding:3px 17px;
+    width:150px;
+}
+.logo{
+    width: 50px;
+    display:flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-bottom: 0%;
+}
+
+header .leftwrapper{
+    width:auto;
+    margin:15px 0;
+    display: inline-block;
+    vertical-align:top;
+}
+header .leftwrapper .selector{
+    cursor:pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+header .leftwrapper .locality, header .leftwrapper .gender{
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: capitalize;
+    font-size: 13px;
+    position:relative;
+}
+header .leftwrapper .locality{
+    margin-right: 15px;
+}
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:arial, helvetica,sans-serif;
+
+}
+.btn-login{
+    padding: 10px 15px;
+    cursor:pointer;
+    background-color:black;
+    color:white;
+    position:absolute;
+    right:70px;
+
+}
+.overlay{
+    width:100%;
+    position:fixed;
+    top:0%;
+    background:rgba(0, 0, 0, 0.5);
+    height:100vh;
+    z-index:-1;
+    opacity:0;
+    transition: 1s;
+}
+
+
+.showoverlay{
+    opacity:1;
+    z-index:-1;
+}
+.loginform{
+    width:350px;
+    padding:30px 20px;
+    background-color:white;
+    position:absolute;
+    transition: 2s;
+    left:50%;
+    z-index:9;
+    top: -50%;
+    box-shadow:0px 0px 10px 3px #ccc;
+    transform:translate(-50%,-50%);
+}
+.showloginform{
+    top:50%;
+}
+.loginform input{
+    width:100%;
+    margin-bottom:15px;
+    height:35px;
+}
+.loginform button{
+    background-color: black;
+    color:white;
+    padding:10px 15px;
+}
+.loginform span{
+    position:absolute;
+    right:0px;
+    width:30px;
+    cursor:pointer;
+    color:white;
+    line-height:30px;
+    height:30px;
+    background-color: green;
+    text-align:center;
+    top:0px;
+}
+
+/*CSS for MEnu*/
+
+
+
+
+/*CSS for Main Body*/
+.main{
+    margin: 1% 0;
+}
+.main h3{
+    color: purple;
+}
+.houses{
+    width: 22.5%;
+    border: 1px solid grey;
+    margin: 1%;
+    float: left;
+    text-align: center;
+}
+.houses:hover{
+    box-shadow: 0 0 3px 3px silver;
+}
+.houses img{
+    width: 100%;
+}
+.houses .house-title{
+    font-weight: bold;
+    color: blue;
+    padding: 1%;
+}
+.house-price{
+    font-size: 120%;
+    color: goldenrod;
+    padding: 1%;
+}
+.house-added,.house-location{
+    font-weight: lighter;
+    font-size: 90%;
+    color: darkblue;
+    padding: 1%;
+}
+.houses .btn-book{
+    padding: 3%;
+    margin: 3%;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+.houses .btn-book:hover{
+    background-color: darkblue;
+}
+.book-house img{
+    width: 50%;
+    float: left;
+    margin: 2% 2% 2% 0;
+}
+.book-house h3{
+    text-align: center;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+.book-house p{
+    text-align: justify;
+    padding: 1%;
+    line-height: 30px;
+    color: #394d6d;
+}
+.main .booking-details{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid darkblue;
+    padding: 2%;
+    margin: 2% auto;
+}
+.main .booking-details h3{
+    margin-bottom: 2%;
+}
+.main .booking-details .name{
+    width: 20%;
+    float: left;
+}
+.main .booking-details input[type='text'],.main .booking-details input[type='email'],
+.main .booking-details input[type='tel'],.main .booking-details input[type='password'],
+.main .booking-details textarea{
+    padding: 1%;
+    margin: 0.5%;
+    width: 75%;
+}
+.main .booking-details input[type='submit']
+{
+    padding: 2%;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    margin-left: 21%;
+}
+.main .booking-details input[type='submit']:hover{
+    box-shadow: 0 0 3px 2px grey;
+}
+.main .booking-details input[type='reset']:hover{
+    box-shadow: 0 0 3px 2px grey;
+}
+.main .booking-details input[type='reset']
+{
+    padding: 2%;
+    background-color: darkred;
+    color: white;
+    border: none;
+}
+
+/*CSS for Footer*/
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+footer{
+    background-color:rgb(52, 28, 60) ;
+}
+.footercontainer{
+    width:100%;
+    padding: 70px 30px 20px;
+}
+
+.socialicon{
+    display:flex;
+    justify-content:center;
+}
+.socialicon a{
+    text-decoration: none;
+    padding:10px;
+    background-color:white;
+    margin:10px;
+    border: radius 50%;
+
+}
+.socialicon a i{
+    font-size:2em;
+    color:black;
+    opacity:0.9;
+
+}
+.socialicon a:hover{
+    background-color:rgb(52, 28, 60)
+    
+}
+.socialicon a:hover i{
+    color:white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display:flex;
+    justify-content: center;
+    list-style-type:disc;
+}
+.footernav ul li a{
+    color:white;
+    margin:20px;
+    text-decoration:none;
+    font-size: 1.3em;
+    opacity:0.7;
+    transition:0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color:rgb(44, 20, 52);
+    padding:20px;
+    text-align:center;
+}
+.footerbottom p{
+    color:white;
+}
+@media(max-width:700px){
+    .footernav ul{
+        flex-direction:column;
+    }
+    .footernav ul li{
+        width:100%;
+        text-align:center;
+    }
+}
